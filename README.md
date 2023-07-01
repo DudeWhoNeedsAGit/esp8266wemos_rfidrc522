@@ -19,8 +19,8 @@ The following table shows the typical pin layout used:
 
 | Signal        | MFRC522       |Wemos D1 Wifi Uno | WeMos D1 mini  | NodeMcu | Generic      |
 |---------------|:-------------:|:----------------:|:--------------:| :------:|:------------:|
-| RST/Reset     | RST           | D [1]           | D3 [1]         | D3 [1]  | GPIO-0 [1]   |
-| SPI SS        | SDA [3]       | D [1]           | D8 [2]         | D8 [2]  | GPIO-15 [2]  |
-| SPI MOSI      | MOSI          | D [1]           | D7             | D7      | GPIO-13      |
-| SPI MISO      | MISO          | D [1]           | D6             | D6      | GPIO-12      |
-| SPI SCK       | SCK           | D [1]           | D5             | D5      | GPIO-14      |
+| RST/Reset     | RST           | D15 [1]          | D3 [1]         | D3 [1]  | GPIO-0 [1]   |
+| SPI SS        | SDA [3]       | D14 [1]          | D8 [2]         | D8 [2]  | GPIO-15 [2]  |
+| SPI MOSI      | MOSI          | D11 [1]          | D7             | D7      | GPIO-13      |
+| SPI MISO      | MISO          | D12 [1]          | D6             | D6      | GPIO-12      |
+| SPI SCK       | SCK           | D13 [1]          | D5             | D5      | GPIO-14      |
